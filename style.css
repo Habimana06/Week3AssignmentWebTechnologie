@@ -1,0 +1,68 @@
+/* style.css */
+
+/* Element selector */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* ID selector */
+#main-header {
+    text-align: center;
+    color: #2c3e50;
+    font-family: 'Georgia', serif;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 15px;
+}
+
+/* Class selector */
+.highlight {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Image styling */
+.image-container {
+    border: 2px solid #bdc3c7;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Combined selector */
+.content-section {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ID selector for paragraph */
+#special-paragraph {
+    font-style: italic;
+    color: #e74c3c;
+    margin-top: 20px;
+}
+
+/* Class selector for intro text */
+.intro-text {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    color: #2ecc71;
+}
